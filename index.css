@@ -1,0 +1,60 @@
+html{
+    scroll-behavior:smooth
+}
+body{
+    background-color:#375987 ;
+}
+.search{
+    text-align: center;
+    
+}
+input{
+    font-size:20px;
+}
+input[type="text"]{
+   padding: 20px;
+   width:360px;
+   height:30px;
+   margin-top:10px;
+   box-shadow: 2px 2px 5px #FAA916;
+  
+}
+hr{
+    border:1px solid #FAA916;
+    width:88%;
+
+}
+.main{
+    background-color:#243D59;
+   margin-top:50px;
+   height:800px;
+   width:40%;
+   margin-left: auto;
+   margin-right:auto;
+   border-radius:50px;
+/*    background-image:linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("weath.png");
+ */
+background-image: url("Images/logo.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-shadow: 21px 21px 5px lightskyblue;
+
+
+}
+.city{
+    font-size:30px;    
+    color:white;
+    text-align: center;
+    margin-top:20px;
+}
+.day{
+    color:#ffffff;
+    font-size:25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.symbol{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
